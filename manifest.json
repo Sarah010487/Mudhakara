@@ -2,7 +2,7 @@
   "name": "Mudhakara Kids",
   "short_name": "Mudhakara",
   "description": "Suivi de mémorisation du Coran pour enfants",
-  "start_url": "./mudhakara-kids-v260.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0d1117",
   "theme_color": "#c9a84c",
