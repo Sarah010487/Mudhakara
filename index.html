@@ -4,6 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mudhakara</title>
+
+<!-- PWA -->
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#c9a84c">
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js');
+    });
+  }
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>*{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#0d1117;--sf:#161b22;--sf2:#1c2330;--bor:rgba(201,168,76,.18);--gold:#c9a84c;--gold2:#e8cc82;--gold3:#8a6520;--teal:#2a7c6f;--teal2:#3aad9a;--red:#c0392b;--red2:#e74c3c;--txt:#e8dfc8;--txt2:#9a8a6a;--txt3:#5a4e38;--r:6px}
