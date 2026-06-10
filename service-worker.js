@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mudhakara-kids-v8';
+const CACHE_NAME = 'mudhakara-kids-v9';
 
 const FILES_TO_CACHE = [
   '/Mudhakara/',
